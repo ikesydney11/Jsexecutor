@@ -28,7 +28,7 @@ public class JsExecutor {
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(4));
             driver.get("https://www.browserstack.com");
             test.info("Navigated to browserstack.com");
-            WebElement automation = driver.findElement(By.id("menu-item-91794"));
+            WebElement automation = driver.findElement(By.id("menu-ite-91794"));
             automation.click();
             test.pass("Clicked on Automation menu item");
 
@@ -41,5 +41,8 @@ public class JsExecutor {
         }
     }
 
+     public void GitPractice(){
 
+         System.out.println("Please update the remote version");
+     }
 }
