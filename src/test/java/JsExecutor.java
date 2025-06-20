@@ -39,10 +39,5 @@ public class JsExecutor {
             test.info("Browser closed");
             extent.flush();
         }
-    }
-
-     public void GitPractice(){
-
-         System.out.println("Please update the remote version");
-     }
+    }gi
 }
