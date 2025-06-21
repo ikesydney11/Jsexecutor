@@ -19,7 +19,6 @@ public class JsExecutor {
 
         ExtentTest test = extent.createTest("Automation Tab Test")
                 .assignCategory("Smoke Test")
-                .addScreenCaptureFromBase64String("Img", "My screenshots")
                 .assignDevice("Firefox");
         WebDriver driver = new FirefoxDriver();
         test.info("Browser started");
@@ -39,5 +38,6 @@ public class JsExecutor {
             test.info("Browser closed");
             extent.flush();
         }
-    }
+
+}
 }
