@@ -13,7 +13,7 @@ public class JsExecutor {
     static ExtentReports extent = new ExtentReports();
     static ExtentSparkReporter spark = new ExtentSparkReporter("target/spark.html");
      @Test
-    public static void setUp() {
+    public void setUp() {
         extent.attachReporter(spark);
         extent.setSystemInfo("Author", "Ikechukwu");
 
