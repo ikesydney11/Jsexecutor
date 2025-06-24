@@ -38,6 +38,5 @@ public class JsExecutor {
             test.info("Browser closed");
             extent.flush();
         }
-
 }
 }
